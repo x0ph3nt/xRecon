@@ -1,6 +1,6 @@
-# x0ph3nt – Automated Recon & Vulnerability Scanner 🚀
+# xRecon – Automated Recon & Vulnerability Scanner 🚀
 
-x0ph3nt is a **Bash-based automated reconnaissance and vulnerability scanning tool** designed for penetration testers, security researchers, and ethical hackers.
+xRecon is a **Bash-based automated reconnaissance and vulnerability scanning tool** designed for penetration testers, security researchers, and ethical hackers.
 
 It automates the process of:
 - Target discovery
@@ -34,9 +34,9 @@ It automates the process of:
 ## 🔹 Installation
 
 ```bash
-git clone https://github.com/<your-username>/x0ph3nt.git
-cd x0ph3nt
-chmod +x x0ph3nt.sh
+git clone https://github.com/x0ph3nt/xRecon.git
+cd xRecon
+chmod +x xRecon.sh
 ```
 
 ---
@@ -45,17 +45,17 @@ chmod +x x0ph3nt.sh
 
 ### ▶️ Scan single target
 ```bash
-./x0ph3nt.sh example.com
+./xRecon.sh example.com
 ```
 
 ### ▶️ Scan multiple targets
 ```bash
-./x0ph3nt.sh target1.com target2.com 192.168.1.1
+./xRecon.sh target1.com target2.com 192.168.1.1
 ```
 
 ### ▶️ Scan from file
 ```bash
-./x0ph3nt.sh -f targets.txt
+./xRecon.sh -f targets.txt
 ```
 
 ---
@@ -113,7 +113,7 @@ This tool is intended for:
 
 ## 🔹 Author
 
-👨‍💻 x0ph3nt
+👨‍💻 Abdulaziz Alsalahi (x0ph3nt)
 
 ---
 
